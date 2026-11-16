@@ -1,0 +1,35 @@
+{
+  "fill": {
+    "linear-gradient": [
+      "srgb:0.18039,0.72157,0.69020,1.00000",
+      "srgb:0.09412,0.62745,0.58824,1.00000"
+    ]
+  },
+  "groups": [
+    {
+      "layers": [
+        {
+          "image-name": "spark.png",
+          "name": "spark",
+          "glass": false,
+          "position": {
+            "scale": 0.95,
+            "translation-in-points": [
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "translucency": {
+        "enabled": false,
+        "value": 0.5
+      }
+    }
+  ],
+  "supported-platforms": {
+    "squares": [
+      "macOS"
+    ]
+  }
+}

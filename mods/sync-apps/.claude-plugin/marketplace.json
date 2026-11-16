@@ -1,0 +1,6 @@
+{
+  "name": "multiple-claude",
+  "description": "Claude Code mod from multiple-claude: /sync-apps.",
+  "owner": { "name": "redrum911" },
+  "plugins": [{ "name": "sync-apps", "source": "./" }]
+}

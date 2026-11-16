@@ -1,0 +1,5 @@
+{
+  "name": "sync-apps",
+  "version": "0.2.0",
+  "description": "/sync-apps restarts Claude and its instances to sync Code sessions"
+}

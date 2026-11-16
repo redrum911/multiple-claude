@@ -1,0 +1,17 @@
+.dframe-root:not([data-collapsed]) .dframe-sidebar { background-color: var(--desktop-theme-backdrop) !important; }
+
+.dframe-root[data-collapsed] .dframe-sidebar-body { --df-web-sidebar-bg: var(--desktop-theme-backdrop) !important; }
+.dframe-chrome-peek-band { background-color: var(--desktop-theme-backdrop) !important; }
+
+diffs-container {
+  --diffs-light-bg: var(--cds-surface-2) !important;
+  --diffs-dark-bg: var(--cds-surface-2) !important;
+  --diffs-light: var(--cds-text-primary) !important;
+  --diffs-dark: var(--cds-text-primary) !important;
+}
+
+* {
+  --muted-as-secondary: var(--cds-text-muted) !important;
+  --df-sidebar-muted: var(--cds-text-muted) !important;
+  --cds-shortcut-cap-ink: var(--cds-text-muted) !important;
+}

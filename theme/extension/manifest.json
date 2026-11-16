@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "multiple-claude theme",
+  "version": "0.8.0",
+  "description": "Paints the theme set by multiple-claude over a Claude Desktop instance. Loaded when REACT_PROFILE=1.",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "theme.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "theme.json",
+        "event.json",
+        "scenes/*.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}
